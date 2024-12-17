@@ -1,8 +1,8 @@
 public class L4TypesOfVariables {
   // static variable
   static int var1 = 55;
-  //object is created using static
-  static L4TypesOfVariables a1=new L4TypesOfVariables();
+  // object is created using static
+  static L4TypesOfVariables a1 = new L4TypesOfVariables();
 
   public static void main(String[] args) {
     // Local variable
@@ -31,4 +31,6 @@ public class L4TypesOfVariables {
  * Static vaiable 55
  * Reference -> null
  * Reference -> L4TypesOfVariables@681a9515
+ * L4TypesOfVariables@3af49f1c
+ * L4TypesOfVariables@3af49f1c
  */

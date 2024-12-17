@@ -1,6 +1,8 @@
 public class L4TypesOfVariables {
   // static variable
   static int var1 = 55;
+  //object is created using static
+  static L4TypesOfVariables a1=new L4TypesOfVariables();
 
   public static void main(String[] args) {
     // Local variable
@@ -10,6 +12,8 @@ public class L4TypesOfVariables {
 
     L4TypesOfVariables obj1 = new L4TypesOfVariables();
     obj1.test();
+
+    System.out.println(a1);
   }
 
   public void test() {
@@ -17,6 +21,7 @@ public class L4TypesOfVariables {
     System.out.println("Reference -> " + refVar1);
     refVar1 = new L4TypesOfVariables();
     System.out.println("Reference -> " + refVar1);
+    System.out.println(a1);
   }
 }
 
